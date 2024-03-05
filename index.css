@@ -1,0 +1,38 @@
+body {
+    background-color: #9b7f7f;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1{
+    font-family: Arial, sans-serif;
+    color: orange;
+    font-size: 90px;
+}
+
+.recipe-links {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+}
+
+
+

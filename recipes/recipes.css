@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 420px;
+    height: 420px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin: 25px;
+    font-size: 40px;
+}
+
+.procedure{
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.ingredients , .directions{
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    padding:  0 20px;
+    text-align: justify;
+    border-radius: 10px;
+}
+
+.ingredients h1, .procedure h1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ingredients li, .directions p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+}
